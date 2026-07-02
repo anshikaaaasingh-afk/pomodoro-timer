@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pomodoro Pro</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="container">
+        <h1>🍅 Pomodoro Pro</h1>
+
+        <div class="settings">
+            <input type="number" id="workTime" value="25" min="1">
+            <label>Work (min)</label>
+
+            <input type="number" id="breakTime" value="5" min="1">
+            <label>Break (min)</label>
+        </div>
+
+        <div id="timer">25:00</div>
+
+        <div class="buttons">
+            <button onclick="startTimer()">Start</button>
+            <button onclick="pauseTimer()">Pause</button>
+            <button onclick="resetTimer()">Reset</button>
+        </div>
+
+        <h3>Completed Sessions Today</h3>
+        <p id="sessions">0</p>
+
+        <button id="themeBtn">🌙 Toggle Dark Mode</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
