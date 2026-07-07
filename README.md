@@ -12,15 +12,7 @@ required.
 
 ## Demo
 
-```
-🍅 Pomodoro Timer
-
-        25:00
-
-   [ Start ]  [ Pause ]  [ Reset ]
-
-   Focus | Short Break | Long Break
-```
+![pomodoro timer](screenshot.png)
 
 ## Features
 
